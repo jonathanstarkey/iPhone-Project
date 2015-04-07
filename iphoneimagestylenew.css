@@ -1,0 +1,424 @@
+/*------- GENERAL -------*/
+body {
+    font-family: "roboto","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+
+/*------- NAVIGATOR -------*/
+.blackbar {
+    background: rgba(0, 0, 0, 0.6);
+    line-height: 1.5em;
+}
+
+nav {
+    height: 46px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 35px;
+    display: inline-block;
+    font-size: 0.8em;
+    
+    height: 46px;
+    line-height: 46px;
+}
+
+nav a:first-of-type{
+    margin-left: 0;
+}
+
+nav a:last-of-type{
+    margin-right: 0;
+}
+
+.apple-icon: {
+}
+
+
+/*------- SUB NAV -------*/
+.subnav li, .subnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.subnav {
+    height: 135px;
+    background-color: rgba(255,255,255,0.6);
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.subnav ul {
+    padding-top: 10px;
+    display: inline-block;
+    width: 692;
+}
+
+.subnav li{
+    text-align: center;
+    height: 113px;
+    margin: 0 23px;
+    display: inline-block;
+
+}
+
+.subnav a {
+    padding-top: 99px;
+    color: #666666;
+    background-repeat: no-repeat;
+    
+    background-position: top center;
+    display: block;
+    text-decoration: none;
+    font-size: .75em;
+}
+
+.subnav a:hover{
+    color: #333333
+
+}
+.subnav li:nth-child(1) a{
+    background-image:url(http://images.apple.com/iphone/home/images/productbrowser/icon_iphone_6.png);
+    width: 68px;
+}
+
+.subnav li:nth-child(2) a{
+    background-image: url(http://images.apple.com/iphone/home/images/productbrowser/iphone_accessories.png);
+
+}
+
+.subnav li:nth-child(3) a{
+    background-image: url(http://images.apple.com/iphone/home/images/productbrowser/compare.png);
+}
+
+.subnav li:nth-child(4) a{
+    background-image: url(http://images.apple.com/iphone/home/images/productbrowser/ios.png);
+    width: 47px;
+
+}
+
+.subnav li:nth-child(5) a{
+    background-image: url(http://images.apple.com/iphone/home/images/productbrowser/icloud.png);
+    width: 45px;
+
+}
+
+/*------- Showcase -------*/
+
+.hero-image {
+    background-image: url(images/hero_large.jpg);
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 1440px 678px;
+    height: 678px;
+    line-height: 678px;
+    text-align: center;
+    width: 1440px;
+}
+
+.hero-copy{
+    display: inline-block;
+    padding-top: 30px;
+    line-height: 4em;
+}
+
+.apple-icon {
+    color: #ffffff;
+    font-size: 3.5em;
+}
+
+.iphone-copy {
+    display: block;
+    color: #ffffff;
+    font-size: 3.875em;
+    text-align: center;
+}
+
+.hero {
+    text-decoration: none;
+}
+
+.hero2 {
+    display: block;
+    color: #ffffff;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+
+a:hover .hero2{
+    color: #08c;
+    text-decoration: none;
+}
+
+/*------- PROMO SECTION 1 -------*/
+.section-1{
+    padding-top: 2px;
+}
+.promo{
+    position: relative;
+    width: 480px;
+    height: 280px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background: center center;
+
+}
+
+a.promo:nth-of-type(1){
+    background-image: url(images/promo_tile_applepay_xlarge.jpg);
+}
+a.promo:nth-of-type(2){
+    background-image: url(images/promo_tile_ios8_xlarge.jpg);
+}
+a.promo:nth-of-type(3){
+    background-image: url(images/promo_tile_researchkit_large.jpg);
+}
+div .section-image{
+    position: absolute;
+    top: 186px
+}
+
+/*------- PROMO SECTION 2 -------*/
+section.promos-2 {
+    margin-top: 46px;
+    position: relative;
+    white-space: nowrap;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+div.promos-2-column {
+    display: inline-block;
+    width: 50%;
+    heighth: 443px;
+    position: relative;
+    vertical-align: top;
+    white-space: normal;
+    text-align: center;
+    color: #000000;
+}
+
+h2.promos-2-head {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+section.promos-2 p {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    max-width: 370px;
+    font-size: 1.06em;
+    font-weight: 300;
+    line-height: 1.5555556em;
+}
+
+.after {
+    color: #08c;
+}
+
+a:hover .after{
+    text-decoration: underline
+}
+
+.after:after  {
+    content: ">";
+    padding-left: 0.3em;
+    display: inline-block;
+}
+
+div.figure-1 {
+    display: inline-block;
+    width: 318px;
+    height: 260px;
+    position: relative;
+    background: no-repeat center center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+section div.figure-1 {
+    background-image: url(images/support_large.jpg)
+}
+
+div.figure-2 {
+    display: inline-block;
+    width: 322px;
+    height: 240px;
+    position: relative;
+    background: no-repeat center center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+section div.figure-2 {
+    background-image: url(images/iphone_business_large.png)
+}
+
+.promos-2 .divider {
+    position: absolute;
+    background: #d6d6d6;
+    display: block;
+    width: 1px;
+    top: 0;
+    left: 50%;
+    bottom: 50px;
+}
+
+/*------- FOOTER BUYSTRIP -------*/
+div.footer  {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    padding-left: 22px;
+    padding-right: 22px;
+    position: relative;
+    background: #f2f2f2;
+    font-family: "helvetica";
+}
+
+div.buystrip {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+    min-width: 692px;
+    vertical-align: top;
+    margin-top: 32px;
+    white-space: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+div.buystrip-image {
+    display: inline-block;
+    position: relative;
+}
+
+figure.buystrip-product {
+    background-repeat: no-repeat;
+    background-size: 209px 220px;
+    height: 220px;
+    width: 209px;
+    background-image: url(images/buystrip_hero_large.png);
+}
+
+div.buystrip-copy {
+    display: inline-block;
+    font-family: inherit;
+    color: #000000;
+    vertical-align: top;
+    position: relative;
+    margin-top: 67px;
+    margin-left: 20px;
+    text-align:left;
+    
+}
+
+h4.buystrip-header {
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: 200;
+}
+
+.buystrip-price, .buystrip-compare{
+    line-height: 1.5em;
+}
+
+.buystrip-compare {
+    color: #08c;
+}
+
+a:hover .buystrip-compare{
+    text-decoration: underline
+}
+
+.buystrip-compare:after  {
+    content: ">";
+    padding-left: 0.3em;
+    display: inline-block;
+}
+
+/*------- FOOTER BLOCK STRIP -------*/
+div.buystrip-blocks{
+    display:inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+
+.buystrip-blocks a {
+    display: inline-block;
+    width: 211px;
+    margin-top: 80px;
+    padding: .85em;
+    
+    text-align: center;
+    text-decoration: none;
+    color: #666666;
+    
+}
+
+.buystrip-blocks h4 {
+    margin-top: .5em;
+    font-size: 1.3em;
+    font-weight: 211px;
+    line-height: 1.5em;
+} 
+
+.buystrip-blocks p {
+    padding-bottom: .8em;
+    margin-top: .15em;
+    font-size: .9em;
+    font-weight: 300;
+    line-height: 1.8em;
+} 
+
+.buystrip-blocks span {
+    font-size: .9em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #08c;
+}
+
+span.myapple {
+    font-weight: 400;
+    color: #666666;
+    text-decoration: none;
+}
+
+a:hover .buystrip-span{
+    text-decoration: underline;
+}
+
+span.span-icon {
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+a .divider{
+    position: absolute;
+    display: block;
+    left: inherit;
+    top: 375px;
+    bottom: 50px;
+    border-right: 1px solid #e3e3e3;
+}

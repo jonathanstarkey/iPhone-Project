@@ -1,0 +1,58 @@
+body {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "roboto","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.hero-image {
+    background-image: url(images/hero_large.jpg);
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 1440px 678px;
+    height: 678px;
+    line-height: 678px;
+    text-align: center;
+    width: 1440px;
+}
+
+
+.hero-copy{
+    display: inline-block;
+    padding-top: 30px;
+    line-height: 4em;
+}
+
+.apple-icon {
+    color: #ffffff;
+    font-size: 3.5em;
+}
+
+
+
+.iphone-copy {
+    display: block;
+    color: #ffffff;
+    font-size: 3.875em;
+    text-align: center;
+}
+
+/* */
+.hero {
+    text-decoration: none;
+}
+
+.hero2 {
+    display: block;
+    color: #ffffff;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+
+a:hover .hero2{
+    color: #08c;
+    text-decoration: none;
+}

@@ -566,6 +566,27 @@ hr.hr-1 {
     line-height: 20px;
 }
 
+.bottom-1 p{
+    font-weight: 300;
+    color: #999999;
+    text-decoration: none;
+    
+    font-size: 1em;
+}
+
+.bottomshopdisplay a{
+    font-weight: 300;
+    color: #666666;
+    text-decoration: none;
+    
+    font-size: 1em;
+}
+
+.bottomshopdisplay a:hover{
+    color: #333333;
+    text-decoration: underline;
+}
+
 .bottom-2{
     display: inline-block;
     position: absolute;
@@ -576,6 +597,52 @@ hr.hr-1 {
     line-height: 20px;
 }
 
+.bottomshopdisplay span{
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #999999;
+}
+
 .foot-icon{
     vertical-align: middle;
+}
+
+.sosumi{
+    max-width: 980px;
+    height: 20px;  
+    margin: 2px auto;
+    line-height: 20px;
+}
+
+.sosumi p{
+    display: inline-block;
+    font-weight: 300;
+    color: #999999;
+    text-decoration: none;
+    
+    font-size: 1em;
+}
+
+.sosumi-links{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.sosumi-links a{
+    font-weight: 300;
+    color: #666666;
+    text-decoration: none;
+    
+    font-size: 1em;
+}
+
+.sosumi-links a:hover{
+    color: #333333;
+    text-decoration: underline;
+}
+
+.sosumi-links span{
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #999999;
 }

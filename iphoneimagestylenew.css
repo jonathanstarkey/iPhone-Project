@@ -386,9 +386,10 @@ a:hover .buystrip-compare{
 
 /*------- FOOTER BLOCK STRIP -------*/
 div.buystrip-blocks{
-    display:inline-block;
-    margin-bottom: 60px;
-    width: 100%;
+    position: relative;
+    margin: 0 auto 60px auto;
+    max-width: 980px;
+    min-width: 692px;
     text-align: center;
 }
 
@@ -439,23 +440,34 @@ a:hover .buystrip-span{
 
 span.span-icon {
     text-decoration: none;
-    padding-left: 3px;
+    padding-left: .5em;
 }
 
 a .divider{
     position: absolute;
     display: block;
     left: inherit;
-    top: 375px;
-    bottom: 50px;
+    top: 85px;
+    bottom: 0px;
     border-right: 1px solid #e3e3e3;
+}
+
+hr.hr-1 {
+    max-width: 980px;
+    margin: 0 auto;
+    
+    border: 0;
+    height: 0;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 0;
+
 }
 
 /*------- BOTTOM COLUMN FOOTER -------*/
 .bottomfooter {
     left:0;
     padding-top: 24px;
-    padding-bottom: 32px;
+    padding-bottom: 16px;
     padding-left: 22px;
     padding-right: 22px;
 }
@@ -473,6 +485,13 @@ a .divider{
 .footertoplabel{
     vertical-align: middle;
     padding-bottom: 16px;
+}
+
+.toplabeldivider{
+    color: #d6d6d6;
+    padding-left: .25em;
+    padding-right: .25em;
+
 }
 
 .toplabelfont{ 
@@ -523,6 +542,7 @@ a .divider{
 /*------- VERY BOTTOM -------*/
 
 .bottomshopparent {
+    padding-top: 16px;
     
     color: #666666;
     font-size: 11px;
@@ -531,12 +551,31 @@ a .divider{
     text-decoration: none
 }
 
-.bottomshopcell{
-    width: 980px;
+.bottomshopdisplay{
+    position: relative;
+    max-width: 980px;
+    height: 20px;  
     margin: 0 auto;
+    line-height: 20px;
 }
 
-.bottomshopdisplay{
-    display:inline-block;
-    width: 49%
+.bottom-1{
+    display: inline-block;
+    vertical-align: top;
+    height: 20px;
+    line-height: 20px;
+}
+
+.bottom-2{
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    right: 0;
+    margin-right: 0;
+    vertical-align: top;
+    line-height: 20px;
+}
+
+.foot-icon{
+    vertical-align: middle;
 }

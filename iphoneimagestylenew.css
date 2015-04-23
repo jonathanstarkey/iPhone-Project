@@ -300,13 +300,13 @@ section div.figure-2 {
 }
 
 .promos-2 .divider {
-    position: absolute;
-    background: #d6d6d6;
     display: block;
-    width: 1px;
+    position: absolute;
+    height: 90%;
+    background: #d6d6d6;
+
     top: 0;
     left: 50%;
-    bottom: 50px;
 }
 
 /*------- FOOTER BUYSTRIP -------*/
@@ -443,12 +443,12 @@ span.span-icon {
     padding-left: .5em;
 }
 
-a .divider{
-    position: absolute;
-    display: block;
-    left: inherit;
-    top: 85px;
-    bottom: 0px;
+.divider{
+    display: inline-block;
+    width: 0;
+    height: 190px;
+    vertical-align: bottom;
+
     border-right: 1px solid #e3e3e3;
 }
 

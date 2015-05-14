@@ -533,6 +533,11 @@ hr.hr-1 {
     text-decoration: none
 }
 
+.bottomfooter a:hover{
+    color: #333333;
+    text-decoration: underline;
+}
+
 .bottomfooter h3 {
     font-size: 11px;
     font-weight: 400;
